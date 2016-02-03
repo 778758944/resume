@@ -1,0 +1,21 @@
+{
+	"keyword":"前端工程师(Front-end Engineer) 独立思考 爱好学习",
+	"stars":{
+		"total":5,
+		"five":1,
+		"four":0,
+		"three":0,
+		"two":0,
+		"one":0
+	},
+	"comments":1,
+	"anwser_question":1,
+	"salary":10000,
+	"place":[{"city":"湖州","available":true},{"city":"杭州","available":true},{"city":"上海","available":false}],
+	"comingdate":"3月中旬",
+	"available":"true",
+	"promise":"本人以严谨谦虚的姿态完成这份简历，保证其真实性",
+	"states":"learning python",
+	"base":["本科毕业","英语四级","办公软件二级"],
+	"experience":"一年"
+}
