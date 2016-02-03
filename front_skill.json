@@ -1,36 +1,36 @@
 [
 	{
-		"img":"./img/front_skill/html.png",
+		"img":"./imgs/front_skill/html.png",
 		"skill_name":"HTML",
 		"describe":"能够熟练手写html进行页面布局，熟悉html5标准，属性canvas，并有多个html5项目实际经验",
 		"star":5
 	},
 	{
-		"img":"./img/front_skill/css.png",
+		"img":"./imgs/front_skill/css.png",
 		"skill_name":"css",
 		"describe":"熟练手写css代码，会使用less，postCss等与处理器，会bootstrap",
 		"star":4.5
 	},
 	{
-		"img":"./img/front_skill/js.jpg",
+		"img":"./imgs/front_skill/js.jpg",
 		"skill_name":"javascript",
 		"describe":"熟悉原生js，也会用jQuery，熟悉js面向对象编程，模块化编程以及AMD，CommonJS等标准，敢于拥抱es6新特性",
 		"star":3
 	},
 	{
-		"img":"./img/front_skill/react.svg",
+		"img":"./imgs/front_skill/react.svg",
 		"skill_name":"React",
 		"describe":"接触5月有余，熟悉组件生命周期，jsx语法，本页面用react完成，同时会用React-Native，并有实际项目经验",
 		"star":1
 	},
 	{
-		"img":"./img/front_skill/webpack.png",
+		"img":"./imgs/front_skill/webpack.png",
 		"skill_name":"webpack",
 		"describe":"目前主力前端构建工具，当然也可以按贵公司需求切换为grunt和glup",
 		"star":1.5
 	},
 	{
-		"img":"./img/front_skill/angular.jpg",
+		"img":"./imgs/front_skill/angular.jpg",
 		"skill_name":"Angular",
 		"describe":"熟悉Angular的指令，控制，视图之间的交互，并有实际项目经验",
 		"star":4
