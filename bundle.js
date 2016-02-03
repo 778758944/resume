@@ -99,12 +99,12 @@
 						_react2.default.createElement(
 							'div',
 							{ id: 'front_skill' },
-							_react2.default.createElement(_buju.Skill, { title: '前端必备的技能', data_url: '/front_skill.json' })
+							_react2.default.createElement(_buju.Skill, { title: '前端必备的技能', data_url: './front_skill.json' })
 						),
 						_react2.default.createElement(
 							'div',
 							{ id: 'other_skill' },
-							_react2.default.createElement(_buju.Skill, { title: '通常希望前端能掌握的其它技能', data_url: '/other_skill.json' })
+							_react2.default.createElement(_buju.Skill, { title: '通常希望前端能掌握的其它技能', data_url: './other_skill.json' })
 						),
 						_react2.default.createElement(
 							'div',
@@ -22019,7 +22019,7 @@
 		},
 		componentWillMount: function componentWillMount() {
 			var that = this;
-			$.get("/baseinfo.json", function (data) {
+			$.get("./baseinfo.json", function (data) {
 				that.setState({
 					load: true,
 					baseinfo: data
@@ -22243,7 +22243,7 @@
 		},
 		componentWillMount: function componentWillMount() {
 			var that = this;
-			$.get("/comment.json", function (data) {
+			$.get("./comment.json", function (data) {
 				that.setState({
 					load: true,
 					comments: data
