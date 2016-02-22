@@ -18,5 +18,35 @@
 			"skills":"HTML,CSS,JavaScript,Angular,Ajax,canvas,Kinetic.js",
 			"link":"/project_img/sgh/qrcode.png"
 		}
+	},
+	{
+		"proname":"洋泾社区基金会官网",
+		"data":{
+			"name":"洋泾社区基金会官网",
+			"describe":"洋泾基金会众筹板块的开发，兼容IE8",
+			"myjob":"实现设计页面",
+			"skills":"HTML，CSS，JavaScript，Bootstrap",
+			"link":"http://yjcf.org"
+		}
+	},
+	{
+		"proname":"INZEN官网",
+		"data":{
+			"name":"INZEN官网",
+			"describe":"开发公司的官方网站，包括pc，tablet，phone三个版本，兼容IE8",
+			"myjob":"负责页面的实现",
+			"skills":"HTML，CSS，JavaScript，Canvas",
+			"link":"http://inzen.com.cn"
+		}
+	},
+	{
+		"proname":"FoodInzen app开发",
+		"data":{
+			"name":"FoodInzen app开发",
+			"describe":"该项目为一个餐厅点菜系统，食客可以通过微信点菜，厨房端可以看到点菜信息，大厅端作为总的控制台可以看到点菜信息，修改，添加或者删除菜品",
+			"myjob":"开发厨房端和大厅端的app",
+			"skills":"React-Native，JavaScript，flex，WebSocket，Java",
+			"link":"http://www.xingwentao.top/project_img/foodinzen/apks.zip"
+		}
 	}
 ]
