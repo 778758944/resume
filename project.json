@@ -6,7 +6,8 @@
 			"describe":"为新西兰航空公司做的一个基于微信的html5游戏，在微信中打开页面摇动手机，每次都可跳转到不同页面,浏览完全部二十个页面可获得抽奖资格",
 			"myjob":"负责实现整个页面的设计，游戏流程，活动抽奖资格的逻辑实现，以及和后端的数据交互",
 			"skills":"HTML，CSS，JavaScript，Angular，Ajax",
-			"link":"/project_img/airnz/qrcode.png"
+			"link":"/project_img/airnz/qrcode.png",
+			"back":"/project_img/airnz/test.png"
 		}
 	},
 	{
@@ -16,7 +17,8 @@
 			"describe":"以万圣节为主题，基于微信的HTML5游戏，游戏内容涉及用户头像上传，背景擦除，人物身体，眼镜的与头像的拼接，最后结合背景生成一张图片",
 			"myjob":"实现页面设计，游戏流程，以及和后端的数据交互",
 			"skills":"HTML,CSS,JavaScript,Angular,Ajax,canvas,Kinetic.js",
-			"link":"/project_img/sgh/qrcode.png"
+			"link":"/project_img/sgh/qrcode.png",
+			"back":"/project_img/airnz/test.png"
 		}
 	},
 	{
@@ -26,7 +28,8 @@
 			"describe":"洋泾基金会众筹板块的开发，兼容IE8",
 			"myjob":"实现设计页面",
 			"skills":"HTML，CSS，JavaScript，Bootstrap",
-			"link":"http://yjcf.org"
+			"link":"http://yjcf.org",
+			"back":"/project_img/airnz/test.png"
 		}
 	},
 	{
@@ -36,7 +39,8 @@
 			"describe":"开发公司的官方网站，包括pc，tablet，phone三个版本，兼容IE8",
 			"myjob":"负责页面的实现",
 			"skills":"HTML，CSS，JavaScript，Canvas",
-			"link":"http://inzen.com.cn"
+			"link":"http://inzen.com.cn",
+			"back":"/project_img/airnz/test.png"
 		}
 	},
 	{
@@ -46,7 +50,8 @@
 			"describe":"该项目为一个餐厅点菜系统，食客可以通过微信点菜，厨房端可以看到点菜信息，大厅端作为总的控制台可以看到点菜信息，修改，添加或者删除菜品",
 			"myjob":"开发厨房端和大厅端的app",
 			"skills":"React-Native，JavaScript，flex，WebSocket，Java",
-			"link":"http://www.xingwentao.top/project_img/foodinzen/apks.zip"
+			"link":"http://www.xingwentao.top/project_img/foodinzen/apks.zip",
+			"back":"/project_img/airnz/test.png"
 		}
 	}
 ]
