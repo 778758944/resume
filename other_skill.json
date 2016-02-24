@@ -1,38 +1,50 @@
 [
 	{
+		"img":"./imgs/other_skill/git.jpg",
+		"skill_name":"git",
+		"describe":"熟悉git的基本操作（add commit pull push）",
+		"star":2
+	},
+	{
 		"img":"./imgs/other_skill/node.svg",
 		"skill_name":"nodejs",
-		"describe":"能够熟练手写html进行页面布局，熟悉html5标准，属性canvas，并有多个html5项目实际经验",
-		"star":3.5
+		"describe":"熟练运用nodejs异步和事件机制，会用Express，loopback框架，利用node搭建过微信的后台",
+		"star":3
 	},
 	{
 		"img":"./imgs/other_skill/php.jpg",
 		"skill_name":"PHP",
-		"describe":"熟练手写css代码，会使用less，postCss等与处理器，会bootstrap",
-		"star":3
+		"describe":"会写一些基础的PHP代码，能看懂PHP，会用PHP操作数据库",
+		"star":1.5
 	},
 	{
 		"img":"./imgs/other_skill/python.jpg",
 		"skill_name":"Python",
-		"describe":"熟悉原生js，也会用jQuery，熟悉js面向对象编程，模块化编程以及AMD，CommonJS等标准，敢于拥抱es6新特性",
+		"describe":"会写基础的Python代码",
 		"star":1
 	},
 	{
 		"img":"./imgs/other_skill/mysql.png",
 		"skill_name":"MySQL",
-		"describe":"接触5月有余，熟悉组件生命周期，jsx语法，本页面用react完成，同时会用React-Native，并有实际项目经验",
-		"star":2.5
+		"describe":"会MySQL的增删改查，数据库的导入导出",
+		"star":2
 	},
 	{
 		"img":"./imgs/other_skill/mongo.jpg",
 		"skill_name":"MongoDB",
-		"describe":"目前主力前端构建工具，当然也可以按贵公司需求切换为grunt和glup",
+		"describe":"会MongoDB的增删改差，数据库的导入导出",
 		"star":2.5
+	},
+	{
+		"img":"./imgs/other_skill/nginx.jpg",
+		"skill_name":"Nginx",
+		"describe":"会用nginx配置虚拟主机，反向代理，以及实现负载均衡",
+		"star":2
 	},
 	{
 		"img":"./imgs/other_skill/linux.png",
 		"skill_name":"Linux",
-		"describe":"熟悉Angular的指令，控制，视图之间的交互，并有实际项目经验",
+		"describe":"较为熟悉的是linux文件系统的操作，会进程管理，搭建web开发环境，ssh，sftp",
 		"star":2
 	}
 ]

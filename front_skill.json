@@ -2,37 +2,37 @@
 	{
 		"img":"./imgs/front_skill/html.png",
 		"skill_name":"HTML",
-		"describe":"能够熟练手写html进行页面布局，熟悉html5标准，属性canvas，并有多个html5项目实际经验",
-		"star":5
+		"describe":"熟练手写html进行页面布局，熟悉html5标准，熟悉canvas，并有多个html5项目实际经验",
+		"star":4.5
 	},
 	{
 		"img":"./imgs/front_skill/css.png",
-		"skill_name":"css",
-		"describe":"熟练手写css代码，会使用less，postCss等与处理器，会bootstrap",
+		"skill_name":"CSS",
+		"describe":"熟练手写css代码，会使用less，postCss等预处理器，会用bootstrap",
 		"star":4.5
 	},
 	{
 		"img":"./imgs/front_skill/js.jpg",
-		"skill_name":"javascript",
-		"describe":"熟悉原生js，也会用jQuery，熟悉js面向对象编程，模块化编程以及AMD，CommonJS等标准，敢于拥抱es6新特性",
-		"star":3
+		"skill_name":"JavaScript",
+		"describe":"熟悉原生js，也会用jQuery，熟悉js面向对象编程，模块化编程以及了解CommonJS,AMD等标准，敢于拥抱es6新特性",
+		"star":4
 	},
 	{
 		"img":"./imgs/front_skill/react.svg",
 		"skill_name":"React",
-		"describe":"接触5月有余，熟悉组件生命周期，jsx语法，本页面用react完成，同时会用React-Native，并有实际项目经验",
-		"star":1
+		"describe":"React代表了一种组件化开发的思路，借助虚拟DOM减少真实的DOM操作，利用组件生命周期完善组件的动态更新，jsx语法绑定了视图和数据，本页面用react完成。同时会用React-Native，并有实际项目经验",
+		"star":3.5
 	},
 	{
 		"img":"./imgs/front_skill/webpack.png",
-		"skill_name":"webpack",
-		"describe":"目前主力前端构建工具，当然也可以按贵公司需求切换为grunt和glup",
-		"star":1.5
+		"skill_name":"Webpack",
+		"describe":"目前主力前端自动化工具，当然也可以按贵公司需求切换为grunt和glup",
+		"star":3
 	},
 	{
 		"img":"./imgs/front_skill/angular.jpg",
 		"skill_name":"Angular",
-		"describe":"熟悉Angular的指令，控制，视图之间的交互，并有实际项目经验",
+		"describe":"适合开发spa应用，页面由视图组成，视图通过控制器完成数据的双向绑定，指令可以进行DOM操作，有实际项目经验",
 		"star":4
 	}
 ]
