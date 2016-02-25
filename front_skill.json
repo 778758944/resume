@@ -12,7 +12,7 @@
 		"star":4.5
 	},
 	{
-		"img":"./imgs/front_skill/js.jpg",
+		"img":"./imgs/front_skill/js.png",
 		"skill_name":"JavaScript",
 		"describe":"熟悉原生js，也会用jQuery，熟悉js面向对象编程，模块化编程以及了解CommonJS,AMD等标准，敢于拥抱es6新特性",
 		"star":4
