@@ -6,7 +6,7 @@
 		"star":2
 	},
 	{
-		"img":"./imgs/other_skill/node.svg",
+		"img":"./imgs/other_skill/node.jpg",
 		"skill_name":"nodejs",
 		"describe":"熟练运用nodejs异步和事件机制，会用Express，loopback框架，利用node搭建过微信的后台",
 		"star":3
