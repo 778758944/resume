@@ -10,7 +10,7 @@
 	},
 	"comments":1,
 	"anwser_question":1,
-	"salary":10000,
+	"salary":15000,
 	"place":[{"city":"湖州","available":true},{"city":"杭州","available":true},{"city":"上海","available":false}],
 	"comingdate":"3月中旬",
 	"available":"true",
