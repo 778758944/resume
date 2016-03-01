@@ -29,7 +29,7 @@
 			"myjob":"实现设计页面",
 			"skills":"HTML，CSS，JavaScript，Bootstrap",
 			"link":"http://yjcf.org",
-			"back":"/project_img/airnz/test.png"
+			"back":"/project_img/airnz/test.jpg"
 		}
 	},
 	{
@@ -40,7 +40,7 @@
 			"myjob":"负责页面的实现",
 			"skills":"HTML，CSS，JavaScript，Canvas",
 			"link":"http://inzen.com.cn",
-			"back":"/project_img/airnz/test.png"
+			"back":"/project_img/airnz/test.jpg"
 		}
 	},
 	{
@@ -51,7 +51,7 @@
 			"myjob":"开发厨房端和大厅端的app",
 			"skills":"React-Native，JavaScript，flex，WebSocket，Java",
 			"link":"http://pan.baidu.com/s/1c1sVZg8",
-			"back":"/project_img/airnz/test.png"
+			"back":"/project_img/airnz/test.jpg"
 		}
 	}
 ]
