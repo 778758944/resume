@@ -31,9 +31,7 @@ $(function(){
 				if(!that.down){
 					var mouse_x=e.pageX;
 					var ele=e.target;
-					if(!that.start_pos){
-						that.start_pos=ele.offsetLeft+ele.parentNode.offsetLeft;
-					}
+					that.start_pos=ele.offsetLeft+ele.parentNode.offsetLeft;
 					var dif=mouse_x-that.start_pos+"px";
 					that.setState({
 						star:dif
@@ -44,8 +42,12 @@ $(function(){
 			this.handleOut=function(){
 				if(!that.down){
 					that.setState({
-						star:"0px"
+						star:"0px",
+						final:""
 					})
+				}
+				else{
+					that.down=false;
 				}
 			}
 
