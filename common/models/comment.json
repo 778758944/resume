@@ -1,0 +1,42 @@
+{
+  "name": "comment",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "star": {
+      "type": "number"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "workTime": {
+      "type": "string"
+    },
+    "time": {
+      "type": "date"
+    },
+    "name": {
+      "type": "string",
+      "id": false
+    },
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
