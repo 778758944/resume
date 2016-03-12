@@ -30,7 +30,7 @@ webpackJsonp([1],{
 	__webpack_require__(177);
 	__webpack_require__(181);
 
-	var star = "http://localhost:8080" + __webpack_require__(190);
+	var star = __webpack_require__(190);
 	console.log(star);
 
 	$(function () {
