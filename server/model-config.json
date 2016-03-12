@@ -34,7 +34,7 @@
   },
   "comment": {
     "dataSource": "mongo",
-    "public": true,
+    "public": false,
     "$promise": {},
     "$resolved": true
   }
