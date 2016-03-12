@@ -8,7 +8,7 @@ require("./css/reset.css");
 require("./css/bootstrap.css");
 import React from "react"
 import {render} from 'react-dom'
-var star="http://localhost:8080"+require("./img/star.png");
+var star=require("./img/star.png");
 console.log(star);
 
 $(function(){
