@@ -53,12 +53,6 @@ $(function(){
 				that.down=true;
 				var num=parseInt(that.state.star.replace("px",""))/21.2;
 				var tmp_num=Math.round(num);
-				if(tmp_num<num){
-					num=tmp_num+0.5;
-				}
-				else{
-					num=tmp_num;
-				}
 				that.setState({
 					star:num*21.2+"px",
 					final:num+"星",

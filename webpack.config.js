@@ -25,11 +25,11 @@ module.exports={
 		new webpack.ProvidePlugin({
 			$:"jquery"
 		}),
-		// new uglifyJsPlugin({
-		// 	compress:{
-		// 		warnings:false
-		// 	}
-		// }),
+		new uglifyJsPlugin({
+			compress:{
+				warnings:false
+			}
+		}),
 		new CommonsChunkPlugin("scripts/init.js")
 		// new HtmlwebpackPlugin({
 		// 	title:"Webpack-demos"
