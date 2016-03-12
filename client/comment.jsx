@@ -68,7 +68,7 @@ $(function(){
 		}
 
 		componentWillMount(){
-			var search=location.search.substr(1);
+			var search=decodeURI(location.search).substr(1);
 			var arr=search.split("&");
 			var obj={};
 			for(var i=0;i<arr.length;i++){
