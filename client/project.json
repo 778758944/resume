@@ -11,6 +11,17 @@
 		}
 	},
 	{
+		"proname":"WE ARMANI JEANS",
+		"data":{
+			"name":"WE ARMANI JEANS",
+			"describe":"为Armani Jeans制作的基于微信的html小游戏，涉及图片上传，放大缩小旋转，剪裁，以及照片墙的反转",
+			"myjob":"整个游戏的页面开发，流程逻辑实现，与后端数据交互",
+			"skills":"HTML,CSS,JavaScript,Angular,Ajax,canvas,Kinetic.js,Node.js",
+			"link":"/project_img/armani/qrcode.png",
+			"back":"/project_img/armani/back.jpg"
+		}
+	},
+	{
 		"proname":"一转飞到新西兰",
 		"data":{
 			"name":"一转飞到新西兰",
@@ -27,7 +38,7 @@
 			"name":"万圣节换装舞会",
 			"describe":"以万圣节为主题，基于微信的HTML5游戏，游戏内容涉及用户头像上传，背景擦除，人物身体，眼镜的与头像的拼接，最后结合背景生成一张图片",
 			"myjob":"实现页面设计，游戏流程，以及和后端的数据交互",
-			"skills":"HTML,CSS,JavaScript,Angular,Ajax,canvas,Kinetic.js",
+			"skills":"HTML，CSS，JavaScript，Angular，Ajax，canvas，Kinetic.js",
 			"link":"/project_img/sgh/qrcode.png",
 			"back":"/project_img/sgh/back.jpg"
 		}
