@@ -12,7 +12,7 @@
 	"anwser_question":1,
 	"salary":10000,
 	"place":[{"city":"湖州","available":true},{"city":"杭州","available":true},{"city":"上海","available":false}],
-	"comingdate":"3月中旬",
+	"comingdate":"4月中旬",
 	"available":"true",
 	"promise":"本人以严谨谦虚的姿态完成这份简历，保证其真实性",
 	"states":"learning python",
