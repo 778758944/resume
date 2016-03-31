@@ -109,7 +109,7 @@ class Project extends React.Component{
 		else{
 			var lis=this.state.data.map(function(item,index){
 				return (
-					<li data-index={index} onMouseOver={that.handle_hover}>
+					<li data-index={index} onMouseOver={that.handle_hover} key={index}>
 						<a href='javascript:' data-index={index}>{item.proname}</a>
 						<img src={arrow} className="arrowImage"/>
 					</li>
@@ -289,14 +289,14 @@ var ShowImg = React.createClass({
 			var smalls=this.small_arr.map(function(url,index){
 				if(index==that.props.imgIndex){
 					return (
-						<li data-index={index} onMouseOver={that.handle_hover} className={'selected'}>
+						<li key={index} data-index={index} onMouseOver={that.handle_hover} className={'selected'}>
 						   <img src={url} width={38} data-index={index}/>
 					    </li>
 						)
 				}
 				else {
 					return (
-					<li data-index={index} onMouseOver={that.handle_hover}>
+					<li key={index} data-index={index} onMouseOver={that.handle_hover}>
 						<img src={url} width={38} data-index={index}/>
 					</li>
 					)
@@ -312,14 +312,14 @@ var ShowImg = React.createClass({
 			var smalls=this.small_arr.map(function(url,index){
 				if(index==that.state.index){
 					return (
-						<li data-index={index} onMouseOver={that.handle_hover} className={'selected'}>
+						<li key={index} data-index={index} onMouseOver={that.handle_hover} className={'selected'}>
 						   <img src={url} width={38} data-index={index}/>
 					    </li>
 						)
 				}
 				else {
 					return (
-					<li data-index={index} onMouseOver={that.handle_hover}>
+					<li  key={index} data-index={index} onMouseOver={that.handle_hover}>
 						<img src={url} width={38} data-index={index}/>
 					</li>
 					)
@@ -412,13 +412,13 @@ var MainInfo=React.createClass({
 		else{
 			var job_place=this.data.place.map(function(data,index){
 				return (
-					<option value={data.available}>{data.city}</option>
+					<option value={data.available} key={index}>{data.city}</option>
 					)
 			});
 			var that=this;
 			var base_opt=this.data.base.map(function(data,index){
 				return (
-					<div className="base_opt" onMouseOver={that.handle_hover} data-index={index}>{data}</div>
+					<div key={index} className="base_opt" onMouseOver={that.handle_hover} data-index={index}>{data}</div>
 					)
 			});
 			if(this.state.place_selected=='true'||this.state.place_selected==true){
@@ -664,7 +664,7 @@ var Skill=React.createClass({
 
 			var skillinfos=this.state.data.map(function(data,index){
 				return (
-				<SkillInfo img={data['img']} skillName={data['skill_name']} skillDes={data['describe']} stars={data['star']} space={that.state.skill_space}/>
+				<SkillInfo key={index} img={data['img']} skillName={data['skill_name']} skillDes={data['describe']} stars={data['star']} space={that.state.skill_space}/>
 				)
 			});
 
@@ -725,7 +725,7 @@ var BaseInfo=React.createClass({
 			var that=this;
 			var items=keys.map(function(val,index){
 				return (
-					<div className="baseinfo_item"><span>{val}：{that.state.baseinfo[val]}</span></div>
+					<div key={index} className="baseinfo_item"><span>{val}：{that.state.baseinfo[val]}</span></div>
 					)
 			})
 			return (
@@ -790,7 +790,7 @@ var CommentSummary=React.createClass({
 		var star_items=this.state.stars.reverse().map(function(data,index){
 			var precent=data/len*100+"%";
 			return (
-				<a className="star_detail_a">
+				<a className="star_detail_a" key={index}>
 					<span>{5-index}星</span>
 					<span className="star_precent_wrap">
 						<i className="star_precent" style={{width:precent}}></i>
@@ -877,7 +877,7 @@ var CommentBox=React.createClass({
 	render(){
 		var comment_content=this.state.comments.map(function(data,index){
 			return (
-				<CommentContent comments={data}/>
+				<CommentContent comments={data} key={index}/>
 				)
 		})
 		if(this.state.load){
