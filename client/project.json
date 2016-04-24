@@ -13,7 +13,7 @@
 	{
 		"proname":"FoodInzen App",
 		"data":{
-			"name":"FoodInzen app开发",
+			"name":"FoodInzen App",
 			"describe":"该项目为一个餐厅点菜系统，食客可以通过微信点菜，厨房端可以看到点菜信息，大厅端作为总的控制台可以看到点菜信息，修改，添加或者删除菜品",
 			"myjob":"开发厨房端和大厅端的app",
 			"skills":"React-Native，JavaScript，flex，WebSocket，Java",
