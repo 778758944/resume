@@ -442,7 +442,7 @@ var MainInfo=React.createClass({
 					<div className='salary'>
 						<div>
 							<span>期望薪资：</span><span className='money'>¥{this.data.salary}</span>
-							<span className='salary_bz'><b>月薪</b>且为<b>税后</b></span>
+							<span className='salary_bz'><b>月薪</b></span>
 						</div>
 					</div>
 
