@@ -11,6 +11,17 @@
 		}
 	},
 	{
+		"proname":"FoodInzen App",
+		"data":{
+			"name":"FoodInzen app开发",
+			"describe":"该项目为一个餐厅点菜系统，食客可以通过微信点菜，厨房端可以看到点菜信息，大厅端作为总的控制台可以看到点菜信息，修改，添加或者删除菜品",
+			"myjob":"开发厨房端和大厅端的app",
+			"skills":"React-Native，JavaScript，flex，WebSocket，Java",
+			"link":"http://pan.baidu.com/s/1c1sVZg8",
+			"back":"/project_img/airnz/test.jpg"
+		}
+	}
+	{
 		"proname":"WE ARMANI JEANS",
 		"data":{
 			"name":"WE ARMANI JEANS",
@@ -62,17 +73,6 @@
 			"myjob":"负责页面的实现",
 			"skills":"HTML，CSS，JavaScript，Canvas",
 			"link":"http://inzen.com.cn",
-			"back":"/project_img/airnz/test.jpg"
-		}
-	},
-	{
-		"proname":"FoodInzen app开发",
-		"data":{
-			"name":"FoodInzen app开发",
-			"describe":"该项目为一个餐厅点菜系统，食客可以通过微信点菜，厨房端可以看到点菜信息，大厅端作为总的控制台可以看到点菜信息，修改，添加或者删除菜品",
-			"myjob":"开发厨房端和大厅端的app",
-			"skills":"React-Native，JavaScript，flex，WebSocket，Java",
-			"link":"http://pan.baidu.com/s/1c1sVZg8",
 			"back":"/project_img/airnz/test.jpg"
 		}
 	}
