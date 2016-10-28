@@ -50,7 +50,6 @@ class CenterAuto extends React.Component{
 					</form>
 				</div>
 				<div className='center_right' style={{width:this.props.right_w}}>
-					<ImageIna w='370' h='39' url='#' img={ad_img}/>
 				</div>
 			</div>
 			)
@@ -501,7 +500,7 @@ var ConnectBox=React.createClass({
 					<button className='btn tel' onClick={this.showTel}><i className='tel_icon' style={{backgroundImage:'url('+back_img2+')'}}></i>预约面试</button>
 				</div>
 				<div>
-					<a className='btn tel down' href='/xingwentao_resume.docx'><span className='glyphicon glyphicon-arrow-down'></span>下载纸质简历</a>
+					<a className='btn tel down' href='/xingwentao_resume.pdf'><span className='glyphicon glyphicon-arrow-down'></span>下载纸质简历</a>
 				</div>
 			</div>
 			)
