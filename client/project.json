@@ -1,5 +1,27 @@
 [
 	{
+		"proname":"爱到家商家端App",
+		"data":{
+			"name":"爱到家商家端App",
+			"describe":"这是一款为该公司平台的商户开发的app，包括登录，新订单推送，接单，发货，店铺状态管理，店铺数据统计等功能。",
+			"myjob":"负责整个app的开发",
+			"skills":"React-Native，android，ios，es6，并通过微软code-push实现软件的热更新",
+			"link":"http://tms.aidaojia.com/app/display?id={ios ? 131:132}",
+			"back":"/project_img/airnz/test.jpg"
+		}
+	},
+	{
+		"proname":"网页聊天",
+		"data":{
+			"name":"网页聊天",
+			"describe":"通过网页实现实时聊天，功能包括登录，权限控制，文字聊天，图片发送，语音聊天，聊天消息推送，你画我猜。",
+			"myjob":"负责整个应用的前后端所有编码工作",
+			"skills":"react，react-router， flux，webpack，nodejs，loopback，mysql，websocket，servicework，gcm推送等",
+			"link":"/project_img/chat/chat.png",
+			"back":"/project_img/airnz/test.jpg"
+		}
+	},
+	{
 		"proname":"捷豹官网",
 		"data":{
 			"name":"捷豹官网",
